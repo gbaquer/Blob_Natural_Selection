@@ -8,16 +8,16 @@ boolean FAST_SIM = true;
 boolean PAUSED =true;
 float SIM_SPEED = 1*(100/MAX_SPEEDUP); //%
 
-final int INITIAL_BLOBS=5; //5
+final int INITIAL_BLOBS=1; //5
 final int INITIAL_FOOD=100; //100
 
 final float INITIAL_SPEED = 15; //15
 final float INITIAL_SIZE = 50; //50
 final float INITIAL_SIGHT = 250; //250
 
-final float SPEED_MUTATION_RATE = 0.1; //0.1
+final float SPEED_MUTATION_RATE = 0; //0.1
 final float SPEED_MUTATION_MAGNITUDE = 5; //5
-final float SIZE_MUTATION_RATE = 0.1; //0.1
+final float SIZE_MUTATION_RATE = 0; //0.1
 final float SIZE_MUTATION_MAGNITUDE = 5; //5
 final float SIGHT_MUTATION_RATE = 0; //0
 final float SIGHT_MUTATION_MAGNITUDE = 10; //10
